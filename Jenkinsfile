@@ -23,7 +23,7 @@ pipeline {
         stage('Run Script') {
             steps {
                 echo "Running Python script..."
-                sh "user/bin/python3 app.py"
+                sh "/usr/bin/python3 app.py"
             }
         }
 
