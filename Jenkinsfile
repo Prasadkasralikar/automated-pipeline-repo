@@ -30,7 +30,6 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Running basic test..."
-                sh 'echo "Tests passed ✅"'
             }
         }
     }
