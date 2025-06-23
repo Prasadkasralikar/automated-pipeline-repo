@@ -23,7 +23,7 @@ pipeline {
         stage('Run Script') {
             steps {
                 echo "Running Python script..."
-                sh "python3 ${PYTHON_SCRIPT}"
+                sh "user/bin/python3 app.py"
             }
         }
 
